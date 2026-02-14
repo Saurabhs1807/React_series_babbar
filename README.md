@@ -1,2 +1,2 @@
-# javascript-advance
+# React
 a code repository for javascript advance
