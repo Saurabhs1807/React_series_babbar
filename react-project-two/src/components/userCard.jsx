@@ -2,7 +2,6 @@ import React from 'react'
 import saurabh from '../assets/saurabh.jpg'
 import "./UserCard.css";
 
-
 const UserCard = (props) => {
   return (
     <div className='user-container' style= {props.style}>
