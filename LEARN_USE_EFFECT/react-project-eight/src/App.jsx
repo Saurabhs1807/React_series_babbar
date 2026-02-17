@@ -3,6 +3,9 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import TimerComponent from './components/TimerComponent'
 import LoggerComponent from './components/LoggerComponent'
+import MultiEffectComponent from './components/MultiEffectComponent'
+import ResizeComponent from './components/ResizeComponent'
+import DataFetcher from './components/DataFetcher'
 
 function App() {
 // const [count, setcount]=useState(0);
@@ -51,7 +54,10 @@ function App() {
 //  }
   return (
    <div>
-    <LoggerComponent />
+    <DataFetcher />
+    {/* <ResizeComponent /> */}
+    {/* <MultiEffectComponent /> */}
+    {/* <LoggerComponent /> */}
     {/* <TimerComponent /> */}
     {/* <button onClick={handleClick}>
      Update count
